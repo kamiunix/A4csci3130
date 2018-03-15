@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.acme.a3csci3130.DetailViewActivity">
+    tools:context="com.acme.a3csci3130.CreateBusinessAcitivity">
+
     <EditText
         android:layout_width="395dp"
         android:layout_height="wrap_content"
@@ -32,6 +33,7 @@
         android:imeOptions="actionDone"
         android:singleLine="true"/>
 
+
     <EditText
         android:id="@+id/province"
         android:layout_width="395dp"
@@ -44,6 +46,7 @@
         android:layout_marginStart="8dp"
         android:imeOptions="actionDone"
         android:singleLine="true"/>
+
 
     <EditText
         android:id="@+id/address"
@@ -72,27 +75,23 @@
         android:singleLine="true"/>
 
     <Button
-        android:id="@+id/updateButton"
+        android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Update Business"
-        app:layout_constraintTop_toBottomOf="@+id/primary"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginStart="8dp"
-        android:onClick="updateContact"/>
-
-    <Button
-        android:id="@+id/deleteButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
-        android:onClick="eraseContact"
-        android:text="Erase Business"
+        android:onClick="submitInfoButton"
+        android:text="Create Business"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/primary" />
+
+
 
 
 </android.support.constraint.ConstraintLayout>

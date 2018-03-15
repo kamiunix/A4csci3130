@@ -1,4 +1,5 @@
 # Add project specific ProGuard rules here.
+# samuel champagne's assignment
 # By default, the flags in this file are appended to flags specified
 # in C:\Users\Franz\AppData\Local\Android\Sdk/tools/proguard/proguard-android.txt
 # You can edit the include path and order by changing the proguardFiles
